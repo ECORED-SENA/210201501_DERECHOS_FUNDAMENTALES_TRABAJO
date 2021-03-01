@@ -1,0 +1,94 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },
+  {
+    "id": 0,
+    "icon": "fa fa-play-circle",
+    "slug": "intro",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/intro.html"
+  },
+  {
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-1",
+    "title": "1.  La democracia",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/tema-1.html"
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-2",
+    "title": "2. Constitución política de Colombia",
+    "breadcrumb": ["Inicio","Tema 2"],
+    "path": "pages/tema-2.html"
+  },
+  {
+    "id": 3,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-3",
+    "title": "3. El trabajo como derecho humano fundamental",
+    "breadcrumb": ["Inicio","Tema 3"],
+    "path": "pages/tema-3.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tema-3",
+        "title": "3.1 Los derechos del trabajo y en el trabajo",
+        "anchor": "tema-31"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tema-3",
+        "title": "3.2 Función social del trabajo",
+        "anchor": "tema-32"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tema-3",
+        "title": "3.3 Derechos relacionados con el trabajo",
+        "anchor": "tema-33"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tema-3",
+        "title": "3.4 Concepto de trabajo",
+        "anchor": "tema-34"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tema-3",
+        "title": "3.5 La negociación colectiva",
+        "anchor": "tema-35"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tema-3",
+        "title": "3.6 Organizaciones sindicales",
+        "anchor": "tema-36"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-4",
+    "title": "4. Mecanismos constitucionales de protección",
+    "breadcrumb": ["Inicio","Tema 4"],
+    "path": "pages/tema-4.html"
+  },
+  {
+    "id": 5,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-5",
+    "title": "5. Mecanismos legales de protección de derechos laborales",
+    "breadcrumb": ["Inicio","Tema 5"],
+    "path": "pages/tema-5.html"
+  }        
+]
