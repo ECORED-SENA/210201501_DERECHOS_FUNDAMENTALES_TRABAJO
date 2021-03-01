@@ -34,12 +34,12 @@ html(lang="es")
                         .card.wow.flipInX(data-wow-delay=".4s")
                             .card-body
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('0', 'Introducción', 'main.html#page/intro/')
-                                    +navTemaItem('1', 'La democracia', 'main.html#page/tema-1/')
-                                    +navTemaItem('2', 'Constitución política de Colombia.', 'main.html#page/tema-2/')
-                                    +navTemaItem('3', 'El trabajo como derecho humano fundamental', 'main.html#page/tema-3/')
-                                    +navTemaItem('4', 'Mecanismos constitucionales de protección.', 'main.html#page/tema-4/')
-                                    +navTemaItem('5', 'Mecanismos legales de protección de derechos laborales.', 'main.html#page/tema-5/')
+                                    +navTemaItem('text', 'Introducción', '#introduccion')
+                                    +navTemaItem('1', 'La democracia', '#tema-1')
+                                    +navTemaItem('2', 'Constitución política de Colombia.', '#tema-2')
+                                    +navTemaItem('3', 'El trabajo como derecho humano fundamental', '#tema-3')
+                                    +navTemaItem('4', 'Mecanismos constitucionales de protección.', '#tema-4')
+                                    +navTemaItem('5', 'Mecanismos legales de protección de derechos laborales.', '#tema-5')
                                     +navTemaItem('glosario', 'Glosario', '#glosario')
                                     +navTemaItem('complementario', 'Material complementario', '#anexos')
                                     +navTemaItem('referencias', 'Referencias bibliográficas', '#referencias')
@@ -47,6 +47,8 @@ html(lang="es")
 
         section#mainContent         
 
+            #introduccion
+                include pages/intro.pug
             #tema-1
                 include pages/tema-1.pug
             #tema-2
