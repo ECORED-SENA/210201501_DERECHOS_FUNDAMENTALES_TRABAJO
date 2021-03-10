@@ -22,19 +22,27 @@
     "path": "pages/tema-1.html"
   },
   {
+    "id": 6,
+    "icon": "fa fa-play-circle",
+    "slug": "tema-6",
+    "title": "2. Los Derechos Humanos",
+    "breadcrumb": ["Inicio","Tema 2"],
+    "path": "pages/tema-6.html"
+  },
+  {
     "id": 2,
     "icon": "fa fa-play-circle",
     "slug": "tema-2",
-    "title": "2. Constitución política de Colombia",
-    "breadcrumb": ["Inicio","Tema 2"],
+    "title": "3. Constitución política de Colombia",
+    "breadcrumb": ["Inicio","Tema 3"],
     "path": "pages/tema-2.html"
   },
   {
     "id": 3,
     "icon": "fa fa-play-circle",
     "slug": "tema-3",
-    "title": "3. El trabajo como derecho humano fundamental",
-    "breadcrumb": ["Inicio","Tema 3"],
+    "title": "4. El trabajo como derecho humano fundamental",
+    "breadcrumb": ["Inicio","Tema 4"],
     "path": "pages/tema-3.html",
     "submenu": [
       {
@@ -79,16 +87,16 @@
     "id": 4,
     "icon": "fa fa-play-circle",
     "slug": "tema-4",
-    "title": "4. Mecanismos constitucionales de protección",
-    "breadcrumb": ["Inicio","Tema 4"],
+    "title": "5. Mecanismos constitucionales de protección",
+    "breadcrumb": ["Inicio","Tema 5"],
     "path": "pages/tema-4.html"
   },
   {
     "id": 5,
     "icon": "fa fa-play-circle",
     "slug": "tema-5",
-    "title": "5. Mecanismos legales de protección de derechos laborales",
-    "breadcrumb": ["Inicio","Tema 5"],
+    "title": "6. Mecanismos legales de protección de derechos laborales",
+    "breadcrumb": ["Inicio","Tema 6"],
     "path": "pages/tema-5.html"
   }        
 ]
